@@ -1,0 +1,296 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	background-image: url("../images/grey_weave.png");
+}
+
+header {
+	position: fixed;
+	background: #ffffff;
+	top: 0;
+	height: 80px;
+	width: 100%;
+	border-bottom: 3px #cccccc solid;
+	z-index: 100;
+}
+
+/* Name top left */
+
+h1 {
+	margin: 0;
+}
+
+#name {
+	background: #4aaaa5;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	float: left;
+	margin-left: 50px;
+	margin-bottom: 0;
+	padding: 21px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+/* Navigation bar top right */
+
+header nav {
+ 	position: relative; 
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 20px;
+ 	left: 410px; 
+}
+
+header nav ul {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 0;
+}
+
+header nav li {
+	float: left;
+	padding: 10px 20px 10px 20px;
+	list-style-type: none;
+}
+
+header nav li a {
+	text-decoration: none;
+	color: #777777;
+	
+}
+
+header nav li a:hover {
+	color: #dddddd;
+	transition: color .25s;
+}
+
+li+li {border-left: 1px solid #dddddd }
+
+/* This is supposed to be the boundaries of all the middle 
+stuff but I don't know if it's actually working properly */
+
+.container {
+	width: 970px;
+	margin-left: 50px;
+	margin-top: 110px;
+}
+
+/* heading in main section of each page */
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 30px;
+	border-bottom: 3px #dddddd solid;
+	padding-bottom: 25px;
+	font-weight: bold;
+}
+
+/* About me section */
+
+.main_about {
+	clear: both;
+	background: #ffffff;
+	float: left;
+	width: 650px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-right: 40px;
+	border: 2px #dddddd solid;
+}
+
+.main_about img {
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
+
+#bio {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 18px;
+	line-height: 33px;
+	margin-top: 25px;
+}
+
+#bio p {
+	padding-bottom: 15px;
+}
+
+
+/* Portfolio page */
+
+.main_portfolio {
+	clear: both;
+	background: #ffffff;
+	float: left;
+	width: 650px;
+	height: 950px;
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-right: 40px;
+	margin-bottom: 90px;
+	border: 2px #dddddd solid;
+}
+
+.main_portfolio img {
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 15px;
+	margin-bottom: 30px;
+}
+
+.main_portfolio h4 {
+	font-size: 20px;
+	background: #4aaaa5;
+	width: 250px;
+	height: 50px;
+	text-align: center;
+	padding-top: 12px;
+	position: absolute;
+	transition: background 0.25s;
+}
+
+.main_portfolio a {
+	text-decoration: none;
+	color: white;
+}
+
+.main_portfolio h4:hover {
+	background: #80c3c0;
+}
+
+#p1 {
+	left: 102px;
+	top: 385px;
+}
+
+#p2 {
+	left: 401px;
+	top: 385px;
+}
+
+#p3 {
+	left: 102px;
+	top: 673px;
+}
+
+#p4 {
+	left: 401px;
+	top: 673px;
+}
+
+#p5 {
+	left: 102px;
+	top: 960px;
+}
+
+
+/* Contact me form */
+
+.main_contact {
+	clear: both;
+	background: #ffffff;
+	float: left;
+	width: 650px;
+	height: 480px;
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-right: 40px;
+	border: 2px #dddddd solid;
+	margin-bottom: 100px;
+}
+
+input, textarea {
+	width: 100%;
+	line-height: 30px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	border: 1px #dddddd solid;
+	border-radius: 2px;
+	padding-left: 10px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+form {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	margin-top: 25px;
+}
+
+
+#message {
+	height: 120px;
+}
+
+button {
+	background: #4aaaa5;
+	padding: 10px 35px 10px 35px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	font-size: 15px;
+	border: none;
+	border-radius: 3px;
+}
+
+
+/* Connect social media links section */
+
+h3 {
+	font-size: 25px;
+	border-bottom: 2px #dddddd solid;
+	padding-bottom: 15px;
+	width: 200px;
+	margin-left:20px;
+	margin-top: 15px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.connect {
+	font-size: 15px;
+	color: #4aaaa5;
+	float: right;
+	background: #ffffff;
+	width: 270px;
+	height: 185px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	border: 2px #dddddd solid;
+}
+
+
+/* remove weird tiny lines under images when links added */
+.connect a {
+	text-decoration: none;
+	transition: opacity .25s;
+}
+
+.connect a:hover {
+	opacity: .8;
+}
+
+
+footer {
+	background: #666666;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border-top: 6px #4aaaa5 solid;
+	padding: 20px;
+}
+
