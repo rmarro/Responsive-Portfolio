@@ -101,6 +101,7 @@ h2 {
 	padding-right: 20px;
 	padding-left: 20px;
 	margin-right: 40px;
+	margin-bottom: 100px;
 	border: 2px #dddddd solid;
 }
 
@@ -131,7 +132,6 @@ h2 {
 	background: #ffffff;
 	float: left;
 	width: 650px;
-	height: 950px;
 	padding-top: 25px;
 	padding-right: 20px;
 	padding-left: 20px;
@@ -294,3 +294,79 @@ footer {
 	padding: 20px;
 }
 
+
+@media screen and (max-width: 980px) {
+
+#name {
+	margin-left: 100px;
+}
+
+header nav {
+	position: static;
+	float: right;
+	margin-right: 100px;
+}
+
+.container {
+	width: 780px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.main_about, .main_portfolio, .main_contact {
+	width: 450px;
+	margin: none;
+	float: left;
+}
+
+.main_about img {
+	width: 100%;
+}
+
+.connect {
+	margin: none;
+	float: right;
+}
+
+.main_portfolio img {
+	width: 375px;
+	margin-left: 15px;
+}
+
+.main_portfolio h4 {
+	width: 375px;
+}
+
+#p1, #p2, #p3, #p4, #p5 {
+	left: 137px;
+}
+
+#p1 {
+	top: 495px;
+}
+
+#p2 {
+	top: 895px;
+}
+
+#p3 {
+	top: 1295px;
+}
+
+#p4 {
+	top: 1695px;
+}
+
+#p5 {
+	top: 2095px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+}
+
+
+@media screen and (max-width: 640px) {
+
+}
